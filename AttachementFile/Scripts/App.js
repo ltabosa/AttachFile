@@ -8,7 +8,7 @@ function initializePage() {
 
     // Ce code s'exécute quand le modèle DOM est prêt. Par ailleurs, il crée un objet de contexte nécessaire à l'utilisation du modèle objet SharePoint
     $(document).ready(function () {
-        getUserName();
+        getUserName();//
 
     });
 
