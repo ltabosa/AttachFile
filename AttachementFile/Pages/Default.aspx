@@ -27,13 +27,9 @@
 <%-- Le balisage et le script de l'élément Content suivant seront placés dans la partie <body> de la page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
-    <div>
-        <p id="message">
-            <!-- Le contenu suivant sera remplacé par le nom de l'utilisateur durant l'exécution de l'application. Consultez App.js -->
-            initializing...
-        </p>
-    </div>
+
 
     <input id="customFileUploadControl" type="file">
     <input id="uploadDocumentButton" type="Button" value="Upload Document">
+    <div id="result"></div>
 </asp:Content>
